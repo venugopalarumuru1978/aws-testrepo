@@ -65,3 +65,16 @@ For Every Application  Creation procecss goes in 3 levels
 1.  Development
 2.  Testing
 3.  Deployment
+
+Steps :-  
+
+1. Create a Maven Project for Cucumber Testing
+2. Add following Dependency in POM.xml for Cucumber
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<dependency>
+		<groupId>io.cucumber</groupId>
+		<artifactId>cucumber-java</artifactId>
+		<version>7.21.1</version>
+	</dependency>
+</dependencies>
