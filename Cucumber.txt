@@ -1,0 +1,67 @@
+https://youtube.com/shorts/y5GWWTFSRpA?si=wjC02FC79ATeSl9w
+Today's Agenda
+---------------
+Cucumber 
+---------------
+What is the importance of Testing in Application Development?
+
+For Every Application  Creation procecss goes in 3 levels
+
+1.  Development
+2.  Testing
+3.  Deployment
+------------------
+Testing is classified into two types
+
+1.  Manual Testing
+	this type of testing will be done by manually with test engineer. 
+	for this test engg. no need to have any programming knowledge.
+2.  Automation Testing
+	this type of testing will be done by the some automation tools.
+	for this test engg. required programming knowledge. 
+
+		QTP - Quick Test Process
+		Selenium - it is meant for testing web apps only. It supports Java, dotnet, python, ruby, JS
+				Selenium using java   = java web app
+				Selenium using dotnet = dotnet web app
+		JUnit -  Unit Testing Framework for java lang. 
+		TestNG,	Cucumber is also meant for testing of Java lang. 
+		
+Unit Testing :-  This type of testing is meant for checking functionality of the application. 
+		this testing has to be done by the developer only. 
+------------------------
+Testing Approaches 
+		TDD -  Test Driven Development
+		BDD -  Behaviorial Driven Development
+
+What is actual process of the testing
+
+	First Develop Code, then write test cases for that code
+
+TDD  :-   Write Test Case Situation based on that situtaion develop the code.
+BDD  :-   It has been derived from TDD only.
+-----------------------------
+
+Steps :-  
+
+1. Create a Maven Project for Cucumber Testing
+2. Add following Dependency in POM.xml for Cucumber
+  <dependencies>
+	  <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+	<dependency>
+		<groupId>io.cucumber</groupId>
+		<artifactId>cucumber-java</artifactId>
+		<version>7.21.1</version>
+	</dependency>
+</dependencies>
+
+3. Add Feature File
+4. Define Senario
+------------------------------
+What is the importance of Testing in Application Development?
+
+For Every Application  Creation procecss goes in 3 levels
+
+1.  Development
+2.  Testing
+3.  Deployment

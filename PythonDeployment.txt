@@ -1,0 +1,31 @@
+Deploying Django Project into Ubuntu Machine:- 
+---------------------------------------------
+Note :-  upload ur project into github repo
+---------------------------------------------
+1. Create an EC2 Instance of Ubuntu Machine
+2. Update Machine
+	sudo apt update
+3. Install Git Software
+	sudo  apt install git
+4. Clone Project into local EC2 machine as follows
+	git clone <repo url>
+5. Install python 
+	sudo apt install python3-pip python3-venv -y
+6. Install Django
+	sudo apt install python3-django
+7. Allow public access by editing myproject/settings.py:
+	python Copy code
+	ALLOWED_HOSTS = ['your-ec2-public-ip']
+8. Add 8000 port no into edit bound rules in EC2 Machine
+9. Migrate Django App
+	python3  manage.py migrate
+10. Run Application
+	python3 manage.py runserver 0.0.0.0:8000
+		goto browser use following url
+			http://publicUrl:8000/
+-------------------------------------------
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04
+
+
+
