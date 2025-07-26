@@ -14,3 +14,20 @@ https://www.digitalocean.com/community/tutorials/mockito-tutorial
 https://www.youtube.com/watch?v=zvbibmH8TXw
 
 https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04
+
+Today's Agenda
+---------------
+1. Junit 5
+2. Mockito
+---------------
+JUnit 5
+
+1. Mockito
+
+https://github.com/WebJournal/journaldev/tree/master/Mockito-Examples
+
+https://www.digitalocean.com/community/tutorials/mockito-tutorial
+
+https://www.youtube.com/watch?v=zvbibmH8TXw
+
+https://www.digitalocean.com/community/tutorials/how-to-install-the-django-web-framework-on-ubuntu-22-04
