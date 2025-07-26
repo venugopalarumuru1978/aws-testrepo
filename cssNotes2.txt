@@ -1,0 +1,73 @@
+CSS :- Cascading Style Sheets
+it is meant for applying styles for the web page.
+
+CSS will be applied in 3 ways
+
+1.  In-Line CSS
+	these are applied for every tag with style property.
+		<tag   style="propname:value;propname:value;....">
+2.  Page Level
+	these are defined in <head> tag with <style> tag. 
+			<style>.....</style>
+
+		CSS classes :- these are used apply css for html elements(tags).
+		for every tag, we can write css as follows
+		tagname{
+			propname:value;
+			propname:value;
+			......
+		}
+
+		Own CSS classes for page, these are starts with ./# with name
+			.cssclasaname{
+				propname:value;
+				propname:value;
+			}
+		to implement those css classes, we have to use "class" property in every tag. 
+		<tag class="cssclassname" ....>
+3.  Site Level
+	these are defined in a separate file which is having .css extension.
+	these css are used in multiple web pages of the application. 
+		
+	to add css file in web page, use following tag in <head> tag. 
+
+	<link rel='stylesheet'  href='cssfilename.css'>
+----------------------------
+this is session of AWS Concepts S3 Bucket.
+
+CSS :- Cascading Style Sheets
+it is meant for applying styles for the web page.
+
+CSS will be applied in 3 ways
+
+1.  In-Line CSS
+	these are applied for every tag with style property.
+		<tag   style="propname:value;propname:value;....">
+2.  Page Level
+	these are defined in <head> tag with <style> tag. 
+			<style>.....</style>
+
+		CSS classes :- these are used apply css for html elements(tags).
+		for every tag, we can write css as follows
+		tagname{
+			propname:value;
+			propname:value;
+			......
+		}
+
+		Own CSS classes for page, these are starts with ./# with name
+			.cssclasaname{
+				propname:value;
+				propname:value;
+			}
+		to implement those css classes, we have to use "class" property in every tag. 
+		<tag class="cssclassname" ....>
+3.  Site Level
+	these are defined in a separate file which is having .css extension.
+	these css are used in multiple web pages of the application. 
+		
+	to add css file in web page, use following tag in <head> tag. 
+
+	<link rel='stylesheet'  href='cssfilename.css'>
+----------------------------
+this is session of AWS Concepts S3 Bucket.
